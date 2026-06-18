@@ -27,13 +27,13 @@ I focus on writing **clean, production-ready code** and designing systems that a
 
 **Backend & Databases:**  
 `Node.js` `Express` `FastAPI` `Flask`  
-`MongoDB` `MySQL` `Prisma ORM`  
+`MongoDB` `MySQL` `Prisma ORM`  `Drizzle ORM` `SQLite` `Postgresql`
 
 **AI / ML:**  
-`OpenCV` `Matplotlib` `Seaborn` `NumPy` `Pandas`  
+`OpenCV` `Matplotlib` `Seaborn` `NumPy` `Pandas` `Langchain`
 
 **Tools & DevOps:**  
-`Git` `GitHub` `Docker` `Postman` `VS Code`  
+`Git` `GitHub` `Docker` `Postman` `VS Code`  `Redis`
 
 ---
 
@@ -82,16 +82,9 @@ I focus on writing **clean, production-ready code** and designing systems that a
 
 ---
 
-## 🌱 Currently Exploring  
-
-- Advanced **Backend Architecture & System Design**  
-- **AI + Web Integration (Production level)**  
-- Performance optimization & scalable systems  
-
----
 
 ## 📊 Coding Profiles  
-- 🔹 LeetCode (200+ problems solved)  
+- 🔹 LeetCode (450+ problems solved)  
 - 🔹 Focus on DSA + real-world implementation  
 
 ---
