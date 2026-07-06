@@ -99,19 +99,13 @@ visitor@github:~$ cat ./about_me.txt
 
 </div>
 
----
-
 ## `> pinned.projects`
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [**⬡ Jal-Drishti**](#) | Real-time underwater anomaly detection · FUnIE-GAN enhancement + YOLOv8-Nano detection · 12–15 FPS at <80ms latency (FP16 GPU) | `FastAPI` `WebSockets` `React` `YOLOv8` |
-| [**⬡ AndThen**](#) | AI interactive storytelling platform with HEXACO personality-based narrative generation · multiplayer + gamification | `Next.js` `MongoDB` `JWT` `LLMs` |
-| [**⬡ Research Scholar Monitoring System**](#) | Tracks PhD progress with an ML delay-prediction model explained via SHAP · admin dashboards & insights | `Full-Stack` `ML` `SHAP` |
-
-*(Swap the `#` links above for your actual repo URLs.)*
-
----
+| [**⬡ UnifiedOps Brain**](https://github.com/sagarjain03/unifiedops-brain) | Enterprise AI operations platform featuring **RAG-powered knowledge retrieval**, AI agents, real-time analytics, secure authentication, and intelligent workflows for industrial operations. | `TypeScript` `Next.js` `Supabase` `Clerk` `RAG` `LLMs` `Tailwind CSS` |
+| [**⬡ AndThen**](https://and-then-nine.vercel.app/) | AI interactive storytelling platform with HEXACO personality-based narrative generation · multiplayer + gamification | `Next.js` `MongoDB` `JWT` `LLMs` |
+| [**⬡ Research Scholar Monitoring System**](https://research-scholar-system.vercel.app/) | Tracks PhD progress with an ML delay-prediction model explained via SHAP · admin dashboards & insights | `Full-Stack` `ML` `SHAP` |
 
 ## `> achievements`
 
@@ -170,7 +164,7 @@ current = {
 
 </div>
 
-*(This renders once you add the GitHub Action below — see setup notes after the file.)*
+
 
 ---
 
