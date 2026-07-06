@@ -17,15 +17,21 @@
 
 ```bash
 visitor@github:~$ cat ./about_me.txt
-
-  Name    : Sagar Jain
-  Role    : Full-Stack Developer (MERN + AI)
-  Uni     : Maharaja Agrasen Institute of Technology
-  Focus   : Backend Systems · AI Integration · System Design
-  Wins    : 3x Hackathon Champion 🏆
-  Motto   : Learn → Build → Ship → Improve
-  Status  : OPEN — reach out anytime ✅
 ```
+
+<div align="center">
+
+| | |
+|---|---|
+| ⚡ **Name**   | Sagar Jain |
+| 🧩 **Role**   | Full-Stack Developer (MERN + AI) |
+| 🎓 **Uni**    | Maharaja Agrasen Institute of Technology |
+| 🎯 **Focus**  | Backend Systems · AI Integration · System Design |
+| 🏆 **Wins**   | 3x Hackathon Champion |
+| 🧭 **Motto**  | Learn → Build → Ship → Improve |
+| 🟢 **Status** | OPEN — reach out anytime |
+
+</div>
 
 ---
 
@@ -149,6 +155,22 @@ current = {
 [![Sagar's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=sagarjain03&bg_color=0d1117&color=00d9ff&line=00b8d9&point=ffffff&area=true&area_color=002233&hide_border=true&radius=6)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
+
+---
+
+## `> contribution.snake`
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sagarjain03/sagarjain03/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sagarjain03/sagarjain03/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/sagarjain03/sagarjain03/output/github-contribution-grid-snake.svg">
+</picture>
+
+</div>
+
+*(This renders once you add the GitHub Action below — see setup notes after the file.)*
 
 ---
 
