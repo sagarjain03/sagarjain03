@@ -18,9 +18,10 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: sagarjain03
+          # monochrome to match the profile theme: white snake, greyscale grid
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=%23ededed&color_dots=%2308080a,%23262629,%234a4a50,%23a0a0a6,%23ededed
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%23ededed&color_dots=%2308080a,%23262629,%234a4a50,%23a0a0a6,%23ededed
 
       - name: push snake svg to the output branch
         uses: crazy-max/ghaction-github-pages@v4

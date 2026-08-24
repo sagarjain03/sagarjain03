@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 24" width="900" height="24">
+  <defs>
+    <linearGradient id="dl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ededed" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#ededed" stop-opacity="0.24"/>
+      <stop offset="50%" stop-color="#ededed" stop-opacity="0.32"/>
+      <stop offset="70%" stop-color="#ededed" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#ededed" stop-opacity="0"/>
+    </linearGradient>
+
+    <g id="cl4">
+      <g fill="#ededed">
+        <path d="M0 0 C -5 -12, -14 -16, -14 -29 C -14 -39, -7 -43, -3.6 -35.5 C -2.4 -33, -1.1 -31.5, 0 -29.5 C 1.1 -31.5, 2.4 -33, 3.6 -35.5 C 7 -43, 14 -39, 14 -29 C 14 -16, 5 -12, 0 0 Z"/>
+        <g transform="rotate(72)"><path d="M0 0 C -5 -12, -14 -16, -14 -29 C -14 -39, -7 -43, -3.6 -35.5 C -2.4 -33, -1.1 -31.5, 0 -29.5 C 1.1 -31.5, 2.4 -33, 3.6 -35.5 C 7 -43, 14 -39, 14 -29 C 14 -16, 5 -12, 0 0 Z"/></g>
+        <g transform="rotate(144)"><path d="M0 0 C -5 -12, -14 -16, -14 -29 C -14 -39, -7 -43, -3.6 -35.5 C -2.4 -33, -1.1 -31.5, 0 -29.5 C 1.1 -31.5, 2.4 -33, 3.6 -35.5 C 7 -43, 14 -39, 14 -29 C 14 -16, 5 -12, 0 0 Z"/></g>
+        <g transform="rotate(216)"><path d="M0 0 C -5 -12, -14 -16, -14 -29 C -14 -39, -7 -43, -3.6 -35.5 C -2.4 -33, -1.1 -31.5, 0 -29.5 C 1.1 -31.5, 2.4 -33, 3.6 -35.5 C 7 -43, 14 -39, 14 -29 C 14 -16, 5 -12, 0 0 Z"/></g>
+        <g transform="rotate(288)"><path d="M0 0 C -5 -12, -14 -16, -14 -29 C -14 -39, -7 -43, -3.6 -35.5 C -2.4 -33, -1.1 -31.5, 0 -29.5 C 1.1 -31.5, 2.4 -33, 3.6 -35.5 C 7 -43, 14 -39, 14 -29 C 14 -16, 5 -12, 0 0 Z"/></g>
+      </g>
+    </g>
+  </defs>
+  <rect x="0" y="11.5" width="428" height="1" fill="url(#dl)"/>
+  <rect x="472" y="11.5" width="428" height="1" fill="url(#dl)"/>
+  <g transform="translate(450,13) scale(0.3)" fill="#ededed" opacity="0.8"><use href="#cl4"/></g>
+  <g fill="#ededed" opacity="0.28">
+    <rect x="224" y="9" width="1" height="6"/><rect x="675" y="9" width="1" height="6"/>
+  </g>
+</svg>

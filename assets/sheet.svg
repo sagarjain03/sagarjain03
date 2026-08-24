@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 462" width="900" height="462" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif">
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <filter id="ink" x="-15%" y="-15%" width="130%" height="130%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.09" numOctaves="3" seed="11" result="warp"/>
+      <feDisplacementMap in="SourceGraphic" in2="warp" scale="1.5" xChannelSelector="R" yChannelSelector="G" result="warped"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="5" result="spots"/>
+      <feColorMatrix in="spots" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  1 0 0 0 -0.7" result="mask"/>
+      <feComposite in="warped" in2="mask" operator="out"/>
+    </filter>
+    <filter id="inkSoft" x="-15%" y="-15%" width="130%" height="130%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.07" numOctaves="3" seed="23" result="warp"/>
+      <feDisplacementMap in="SourceGraphic" in2="warp" scale="1.1" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+
+    <g id="cl3">
+      <g fill="#ededed">
+        <path d="M0 0 C -5 -12, -14 -16, -14 -29 C -14 -39, -7 -43, -3.6 -35.5 C -2.4 -33, -1.1 -31.5, 0 -29.5 C 1.1 -31.5, 2.4 -33, 3.6 -35.5 C 7 -43, 14 -39, 14 -29 C 14 -16, 5 -12, 0 0 Z"/>
+        <g transform="rotate(72)"><path d="M0 0 C -5 -12, -14 -16, -14 -29 C -14 -39, -7 -43, -3.6 -35.5 C -2.4 -33, -1.1 -31.5, 0 -29.5 C 1.1 -31.5, 2.4 -33, 3.6 -35.5 C 7 -43, 14 -39, 14 -29 C 14 -16, 5 -12, 0 0 Z"/></g>
+        <g transform="rotate(144)"><path d="M0 0 C -5 -12, -14 -16, -14 -29 C -14 -39, -7 -43, -3.6 -35.5 C -2.4 -33, -1.1 -31.5, 0 -29.5 C 1.1 -31.5, 2.4 -33, 3.6 -35.5 C 7 -43, 14 -39, 14 -29 C 14 -16, 5 -12, 0 0 Z"/></g>
+        <g transform="rotate(216)"><path d="M0 0 C -5 -12, -14 -16, -14 -29 C -14 -39, -7 -43, -3.6 -35.5 C -2.4 -33, -1.1 -31.5, 0 -29.5 C 1.1 -31.5, 2.4 -33, 3.6 -35.5 C 7 -43, 14 -39, 14 -29 C 14 -16, 5 -12, 0 0 Z"/></g>
+        <g transform="rotate(288)"><path d="M0 0 C -5 -12, -14 -16, -14 -29 C -14 -39, -7 -43, -3.6 -35.5 C -2.4 -33, -1.1 -31.5, 0 -29.5 C 1.1 -31.5, 2.4 -33, 3.6 -35.5 C 7 -43, 14 -39, 14 -29 C 14 -16, 5 -12, 0 0 Z"/></g>
+      </g>
+    </g>
+  </defs>
+
+  <rect width="900" height="462" fill="#08080a"/>
+  <g opacity="0.03" transform="translate(742,318) scale(2.4)" fill="#ededed" filter="url(#ink)"><use href="#cl3"/></g>
+
+  <text x="52" y="60" font-size="19" font-weight="300" letter-spacing="9" fill="#ededed">GRIMOIRE</text>
+  <text x="848" y="60" text-anchor="end" font-size="8.5" letter-spacing="3" fill="#55555c" font-family="'SF Mono','Consolas','Courier New',monospace">魔導書 　/ 　SKILL SHEET</text>
+  <path d="M52 78 H848" stroke="#26262b" stroke-width="1"/>
+
+  <g font-size="9.5" font-family="'SF Mono','Consolas','Courier New',monospace" letter-spacing="1.6">
+    <text x="52" y="106" fill="#55555c">NAME</text>
+    <text x="128" y="106" fill="#ededed">SAGAR JAIN</text>
+    <text x="352" y="106" fill="#55555c">SQUAD</text>
+    <text x="428" y="106" fill="#c9c9cf">BYTE SOCIETY</text>
+    <text x="628" y="106" fill="#55555c">GRIMOIRE</text>
+    <text x="716" y="106" fill="#ededed">FIVE-LEAF</text>
+    <text x="848" y="106" text-anchor="end" fill="#9b1122">ACTIVE</text>
+  </g>
+  <path d="M52 124 H848" stroke="#26262b" stroke-width="1"/>
+
+    <g>
+      <text x="52" y="152" font-size="11" letter-spacing="3" fill="#ededed">CREATION MAGIC</text>
+      <text x="52" y="166" font-size="8.2" letter-spacing="0.8" fill="#5c5c63" font-family="'SF Mono','Consolas','Courier New',monospace">React · Next.js · Three.js · Tailwind</text>
+      <text x="352" y="152" text-anchor="end" font-size="11" fill="#6b6b72" font-family="'Yu Mincho','Hiragino Mincho ProN','Noto Serif JP','MS Mincho',serif">創造魔法</text>
+      <rect x="404" y="147" width="384" height="4" fill="#1a1a1e"/>
+      <rect x="404" y="147" width="0" height="4" fill="#ededed">
+        <animate attributeName="width" from="0" to="353.28000000000003" dur="1.1s" begin="0.00s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
+      </rect>
+      <text x="804" y="152" font-size="9.5" fill="#6b6b72" font-family="'SF Mono','Consolas','Courier New',monospace" opacity="0">92
+        <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.90s" fill="freeze"/>
+      </text>
+    </g>
+    <g>
+      <text x="52" y="190" font-size="11" letter-spacing="3" fill="#ededed">FOUNDATION MAGIC</text>
+      <text x="52" y="204" font-size="8.2" letter-spacing="0.8" fill="#5c5c63" font-family="'SF Mono','Consolas','Courier New',monospace">Node · Express · FastAPI · Flask</text>
+      <text x="352" y="190" text-anchor="end" font-size="11" fill="#6b6b72" font-family="'Yu Mincho','Hiragino Mincho ProN','Noto Serif JP','MS Mincho',serif">基盤魔法</text>
+      <rect x="404" y="185" width="384" height="4" fill="#1a1a1e"/>
+      <rect x="404" y="185" width="0" height="4" fill="#ededed">
+        <animate attributeName="width" from="0" to="345.6" dur="1.1s" begin="0.10s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
+      </rect>
+      <text x="804" y="190" font-size="9.5" fill="#6b6b72" font-family="'SF Mono','Consolas','Courier New',monospace" opacity="0">90
+        <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.00s" fill="freeze"/>
+      </text>
+    </g>
+    <g>
+      <text x="52" y="228" font-size="11" letter-spacing="3" fill="#ededed">FORESIGHT MAGIC</text>
+      <text x="52" y="242" font-size="8.2" letter-spacing="0.8" fill="#5c5c63" font-family="'SF Mono','Consolas','Courier New',monospace">RAG · LLMs · PyTorch · OpenCV</text>
+      <text x="352" y="228" text-anchor="end" font-size="11" fill="#6b6b72" font-family="'Yu Mincho','Hiragino Mincho ProN','Noto Serif JP','MS Mincho',serif">予知魔法</text>
+      <rect x="404" y="223" width="384" height="4" fill="#1a1a1e"/>
+      <rect x="404" y="223" width="0" height="4" fill="#ededed">
+        <animate attributeName="width" from="0" to="326.4" dur="1.1s" begin="0.20s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
+      </rect>
+      <text x="804" y="228" font-size="9.5" fill="#6b6b72" font-family="'SF Mono','Consolas','Courier New',monospace" opacity="0">85
+        <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.10s" fill="freeze"/>
+      </text>
+    </g>
+    <g>
+      <text x="52" y="266" font-size="11" letter-spacing="3" fill="#ededed">SEALING MAGIC</text>
+      <text x="52" y="280" font-size="8.2" letter-spacing="0.8" fill="#5c5c63" font-family="'SF Mono','Consolas','Courier New',monospace">MongoDB · Postgres · Redis · Prisma</text>
+      <text x="352" y="266" text-anchor="end" font-size="11" fill="#6b6b72" font-family="'Yu Mincho','Hiragino Mincho ProN','Noto Serif JP','MS Mincho',serif">封印魔法</text>
+      <rect x="404" y="261" width="384" height="4" fill="#1a1a1e"/>
+      <rect x="404" y="261" width="0" height="4" fill="#ededed">
+        <animate attributeName="width" from="0" to="322.56" dur="1.1s" begin="0.30s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
+      </rect>
+      <text x="804" y="266" font-size="9.5" fill="#6b6b72" font-family="'SF Mono','Consolas','Courier New',monospace" opacity="0">84
+        <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.20s" fill="freeze"/>
+      </text>
+    </g>
+    <g>
+      <text x="52" y="304" font-size="11" letter-spacing="3" fill="#c9c9cf">ANTI-MAGIC</text>
+      <text x="52" y="318" font-size="8.2" letter-spacing="0.8" fill="#5c5c63" font-family="'SF Mono','Consolas','Courier New',monospace">Data structures · 450+ problems</text>
+      <text x="352" y="304" text-anchor="end" font-size="11" fill="#6b6b72" font-family="'Yu Mincho','Hiragino Mincho ProN','Noto Serif JP','MS Mincho',serif">反 魔 法</text>
+      <rect x="404" y="299" width="384" height="4" fill="#1a1a1e"/>
+      <rect x="404" y="299" width="0" height="4" fill="#9b1122">
+        <animate attributeName="width" from="0" to="337.92" dur="1.1s" begin="0.40s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
+      </rect>
+      <text x="804" y="304" font-size="9.5" fill="#6b6b72" font-family="'SF Mono','Consolas','Courier New',monospace" opacity="0">88
+        <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.30s" fill="freeze"/>
+      </text>
+    </g>
+    <g>
+      <text x="52" y="342" font-size="11" letter-spacing="3" fill="#ededed">SPATIAL MAGIC</text>
+      <text x="52" y="356" font-size="8.2" letter-spacing="0.8" fill="#5c5c63" font-family="'SF Mono','Consolas','Courier New',monospace">System design · Scaling</text>
+      <text x="352" y="342" text-anchor="end" font-size="11" fill="#6b6b72" font-family="'Yu Mincho','Hiragino Mincho ProN','Noto Serif JP','MS Mincho',serif">空間魔法</text>
+      <rect x="404" y="337" width="384" height="4" fill="#1a1a1e"/>
+      <rect x="404" y="337" width="0" height="4" fill="#ededed">
+        <animate attributeName="width" from="0" to="291.84000000000003" dur="1.1s" begin="0.50s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
+      </rect>
+      <text x="804" y="342" font-size="9.5" fill="#6b6b72" font-family="'SF Mono','Consolas','Courier New',monospace" opacity="0">76
+        <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.40s" fill="freeze"/>
+      </text>
+    </g>
+    <g>
+      <text x="52" y="380" font-size="11" letter-spacing="3" fill="#ededed">STEEL MAGIC</text>
+      <text x="52" y="394" font-size="8.2" letter-spacing="0.8" fill="#5c5c63" font-family="'SF Mono','Consolas','Courier New',monospace">Docker · CI/CD · Git · Vercel</text>
+      <text x="352" y="380" text-anchor="end" font-size="11" fill="#6b6b72" font-family="'Yu Mincho','Hiragino Mincho ProN','Noto Serif JP','MS Mincho',serif">鋼 魔 法</text>
+      <rect x="404" y="375" width="384" height="4" fill="#1a1a1e"/>
+      <rect x="404" y="375" width="0" height="4" fill="#ededed">
+        <animate attributeName="width" from="0" to="268.79999999999995" dur="1.1s" begin="0.60s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
+      </rect>
+      <text x="804" y="380" font-size="9.5" fill="#6b6b72" font-family="'SF Mono','Consolas','Courier New',monospace" opacity="0">70
+        <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.50s" fill="freeze"/>
+      </text>
+    </g>
+
+  <path d="M52 410 H848" stroke="#26262b" stroke-width="1"/>
+  <text x="52" y="430" font-size="8.5" letter-spacing="3" fill="#55555c" font-family="'SF Mono','Consolas','Courier New',monospace">CURRENT — SHIPPING AI + FULL-STACK SYSTEMS THAT SOLVE REAL PROBLEMS</text>
+  <g transform="translate(840,424) scale(0.3)" fill="#55555c"><use href="#cl3"/></g>
+
+  <rect width="900" height="462" filter="url(#grain)" opacity="0.05"/>
+
+    <rect x="18.5" y="18.5" width="863" height="425" fill="none" stroke="#26262b" stroke-width="1"/>
+    <g stroke="#ededed" stroke-width="1.3" fill="none">
+      <path d="M18 38 L18 18 L38 18"/>
+      <path d="M882 38 L882 18 L862 18"/>
+      <path d="M18 424 L18 444 L38 444"/>
+      <path d="M882 424 L882 444 L862 444"/>
+    </g>
+    <g stroke="#9b1122" stroke-width="1.3">
+      <path d="M25 29 h9"/>
+      <path d="M866 29 h9"/>
+    </g>
+</svg>
