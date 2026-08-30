@@ -174,9 +174,7 @@ legible through SHAP — plus admin dashboards that turn the prediction into an 
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=sagarjain03&bg_color=08080a&color=ededed&line=6b6b72&point=ffffff&area=true&area_color=1a1a1e&hide_border=true&radius=2&custom_title=CONTRIBUTION%20ACTIVITY" width="100%" />
 
-<br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sagarjain03/sagarjain03/output/github-contribution-grid-snake-dark.svg">
