@@ -152,7 +152,7 @@ legible through SHAP — plus admin dashboards that turn the prediction into an 
 | `2025` | **CodeVerse Hackathon** | 1st Position |
 | `—` | **APOCALYPSE 3.0** | 2nd Runner-Up |
 | `—` | **HackWithMAIT** | Top 10 — showcased at Microsoft Office |
-| `ongoing` | **LeetCode** | 450+ problems solved |
+| `ongoing` | **LeetCode** | 550+ problems solved |
 
 ### BYTE Society &nbsp;<sub>Technical Member</sub>
 
