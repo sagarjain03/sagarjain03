@@ -28,21 +28,18 @@ built to survive real traffic. Three hackathons, three wins, all of them shipped
 under deadline.
 
 I'm a B.Tech IT student at **Maharaja Agrasen Institute of Technology**, currently deep in
-system design at scale and MLOps. The rest is reps — 450+ problems solved, and a commit
+system design at scale and MLOps. The rest is reps — 550+ problems solved, and a commit
 almost every day.
 
-<br/>
-
-| | |
-|:--|:--|
-| **Class** | Full-Stack Developer · MERN + AI |
-| **Focus** | Backend systems · RAG & LLM integration · System design |
-| **Squad** | BYTE Society — Technical Member |
-| **Record** | 3× Hackathon Champion |
-| **Method** | `Learn → Build → Ship → Improve` |
-| **Status** | Open to collaborations & opportunities |
-
 <br clear="right" />
+
+<div align="center">
+
+<img src="assets/status.svg" width="100%" alt="Status — Full-Stack Developer · MERN + AI. Focus: backend systems, RAG & LLMs, system design. B.Tech IT, MAIT Delhi, 2027. 3× hackathon podium, 550+ LeetCode. Open to internships & collaborations." />
+
+</div>
+
+<br/>
 
 > **"I'll never give up — that's my magic."**
 >
@@ -120,45 +117,58 @@ almost every day.
 
 ## `04` &nbsp;WORKS &nbsp;&nbsp;<sub>作品</sub>
 
-### 一 &nbsp;· &nbsp;[UnifiedOps Brain](https://github.com/sagarjain03/unifiedops-brain)
+### 一 &nbsp;· &nbsp;[GuruJi](https://github.com/sagarjain03/GuruJi)
 
-Enterprise AI operations platform. RAG-powered knowledge retrieval over internal documents,
-autonomous agents for routine workflows, real-time analytics, and hardened auth — built for
-industrial teams that can't afford a wrong answer.
+A personal DSA training system that tracks where you're weak and tells you what to practise
+next. Code runs in per-language Docker sandboxes behind a BullMQ worker queue, with a Monaco
+editor and live results streamed over WebSockets.
 
-<sub>`TypeScript` &nbsp;`Next.js` &nbsp;`Supabase` &nbsp;`Clerk` &nbsp;`RAG` &nbsp;`LLMs` &nbsp;`Tailwind`</sub>
+<sub>`TypeScript` &nbsp;`Next.js` &nbsp;`NestJS` &nbsp;`PostgreSQL` &nbsp;`Prisma` &nbsp;`Redis` &nbsp;`BullMQ` &nbsp;`Docker` &nbsp;`WebSockets`</sub>
+<br/><sub>[Code](https://github.com/sagarjain03/GuruJi)</sub>
 
-### 二 &nbsp;· &nbsp;[AndThen](https://and-then-nine.vercel.app/)
+### 二 &nbsp;· &nbsp;[UnifiedOps Brain](https://github.com/sagarjain03/unifiedops-brain)
 
-Interactive storytelling engine where the narrative adapts to a HEXACO personality profile.
-Branching multiplayer worlds, persistent state, and gamified progression.
+AI knowledge assistant for teams. Upload documents, then ask questions and get answers grounded
+in what's actually stored — RAG over pgvector, OCR for scanned files, and search that scales to
+large business document collections.
 
-<sub>`Next.js` &nbsp;`MongoDB` &nbsp;`JWT` &nbsp;`LLMs`</sub>
+<sub>`TypeScript` &nbsp;`Next.js` &nbsp;`FastAPI` &nbsp;`PostgreSQL` &nbsp;`pgvector` &nbsp;`RAG` &nbsp;`OCR`</sub>
+<br/><sub>[Code](https://github.com/sagarjain03/unifiedops-brain) &nbsp;·&nbsp; [Live](https://unifiedops-brain.vercel.app)</sub>
 
-### 三 &nbsp;· &nbsp;[Research Scholar Monitoring System](https://research-scholar-system.vercel.app/)
+### 三 &nbsp;· &nbsp;[Warden](https://warden-project.vercel.app)
+
+Spend-policy guard for AI agents. Every agent payment is checked against financial, merchant,
+velocity and risk rules *before* it's signed — low-risk spends pass, violations are blocked,
+ambiguous ones go to a human, and everything lands in an audit log.
+
+<sub>`TypeScript` &nbsp;`Next.js` &nbsp;`PostgreSQL` &nbsp;`Drizzle` &nbsp;`x402` &nbsp;`Authorization`</sub>
+<br/><sub>[Code](https://github.com/sagarjain03/x402Project) &nbsp;·&nbsp; [Live](https://warden-project.vercel.app)</sub>
+
+### 四 &nbsp;· &nbsp;[AndThen](https://and-then-nine.vercel.app/)
+
+AI storytelling platform where the narrative adapts to your personality, genre and choices.
+Real-time multiplayer story sessions over WebSockets, persistent state, and gamified progression.
+
+<sub>`TypeScript` &nbsp;`Next.js` &nbsp;`Node.js` &nbsp;`MongoDB` &nbsp;`WebSockets` &nbsp;`JWT` &nbsp;`Gemini`</sub>
+<br/><sub>[Code](https://github.com/sagarjain03/And_then) &nbsp;·&nbsp; [Live](https://and-then-nine.vercel.app/)</sub>
+
+### 五 &nbsp;· &nbsp;[Research Scholar Monitoring System](https://research-scholar-system.vercel.app/)
 
 Tracks PhD progress and predicts submission delays with an ML model whose reasoning is made
 legible through SHAP — plus admin dashboards that turn the prediction into an action.
 
 <sub>`Full-Stack` &nbsp;`Machine Learning` &nbsp;`SHAP`</sub>
+<br/><sub>[Code](https://github.com/sagarjain03/research-scholar-system) &nbsp;·&nbsp; [Live](https://research-scholar-system.vercel.app/)</sub>
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>
 
 ## `05` &nbsp;RECORD &nbsp;&nbsp;<sub>戦績</sub>
 
-| | Event | Result |
-|:--|:--|:--|
-| `2026` | **SmartOHack 3.0** | 1st Position |
-| `2025` | **CodeVerse Hackathon** | 1st Position |
-| `—` | **APOCALYPSE 3.0** | 2nd Runner-Up |
-| `—` | **HackWithMAIT** | Top 10 — showcased at Microsoft Office |
-| `ongoing` | **LeetCode** | 550+ problems solved |
+<div align="center">
 
-### BYTE Society &nbsp;<sub>Technical Member</sub>
+<img src="assets/record.svg" width="100%" alt="Record — SmartOHack 3.0 (2026) 1st place; CodeVerse (2025) 1st place; APOCALYPSE 3.0 (2025) 2nd runner-up; Zero Dependency (2026) 11th of 295; HackWithMAIT (2024) top 10, showcased at Microsoft Office; LeetCode 550+ solved." />
 
-- Built a facial recognition attendance system with OpenCV — cut processing time by **70%**
-- Designed interactive frontend experiences with **Three.js** and **GSAP**
-- Contributing to the college **ERP system** on Next.js, Prisma and TypeScript
+</div>
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>
 
@@ -188,15 +198,26 @@ legible through SHAP — plus admin dashboards that turn the prediction into an 
 
 ## `07` &nbsp;CONTACT &nbsp;&nbsp;<sub>連絡</sub>
 
-Currently building the next real-world AI system, training on system design at scale, and
-open to internships and collaborations. If you're working on something hard, I'd like to hear
-about it.
+<div align="center">
 
-| | |
-|:--|:--|
-| **Email** | [thesagarjain8@gmail.com](mailto:thesagarjain8@gmail.com) |
-| **LinkedIn** | [sagar-jain-a68aa927b](https://www.linkedin.com/in/sagar-jain-a68aa927b/) |
-| **Portfolio** | [my-portfolio-3hih.vercel.app](https://my-portfolio-3hih.vercel.app/) |
+<a href="mailto:thesagarjain8@gmail.com"><img src="assets/contact.svg" width="100%" alt="Contact — thesagarjain8@gmail.com · open to internships & collaborations" /></a>
+
+<br/><br/>
+
+Building the next real-world AI system and training on system design at scale.<br/>
+If you're working on something hard, I'd like to hear about it.
+
+<br/>
+
+<a href="mailto:thesagarjain8@gmail.com"><img src="https://img.shields.io/badge/EMAIL-08080a?style=for-the-badge&logo=gmail&logoColor=ededed&labelColor=08080a" height="30" alt="Email" /></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/sagar-jain-a68aa927b/"><img src="https://img.shields.io/badge/LINKEDIN-08080a?style=for-the-badge&logo=linkedin&logoColor=ededed&labelColor=08080a" height="30" alt="LinkedIn" /></a>
+&nbsp;
+<a href="https://my-portfolio-3hih.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-08080a?style=for-the-badge&logo=vercel&logoColor=ededed&labelColor=08080a" height="30" alt="Portfolio" /></a>
+&nbsp;
+<a href="https://leetcode.com/u/thesagarjain8/"><img src="https://img.shields.io/badge/LEETCODE-08080a?style=for-the-badge&logo=leetcode&logoColor=ededed&labelColor=08080a" height="30" alt="LeetCode" /></a>
+
+</div>
 
 <br/>
 

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 272" width="900" height="272" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif">
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="272" fill="#08080a"/>
+
+  <text x="52" y="56" font-size="15" font-weight="300" letter-spacing="8" fill="#ededed">STATUS</text>
+  <text x="848" y="56" text-anchor="end" font-size="8.5" letter-spacing="3" fill="#55555c" font-family="'SF Mono','Consolas','Courier New',monospace">ステータス 　/ 　PROFILE</text>
+  <path d="M52 72 H848" stroke="#26262b" stroke-width="1"/>
+
+  <path d="M450 86 V226" stroke="#1a1a1e" stroke-width="1"/>
+  <path d="M52 128 H848 M52 184 H848" stroke="#1a1a1e" stroke-width="1"/>
+
+  <g font-size="8.5" letter-spacing="2.5" fill="#55555c" font-family="'SF Mono','Consolas','Courier New',monospace">
+    <text x="52" y="94">CLASS</text>
+    <text x="482" y="94">FOCUS</text>
+    <text x="52" y="150">BASE</text>
+    <text x="482" y="150">RECORD</text>
+    <text x="52" y="206">METHOD</text>
+    <text x="482" y="206">STATUS</text>
+  </g>
+
+  <g font-size="13" letter-spacing="0.4" fill="#ededed">
+    <text x="52" y="115">Full-Stack Developer · MERN + AI</text>
+    <text x="482" y="115">Backend systems · RAG &amp; LLMs · System design</text>
+    <text x="52" y="171">B.Tech IT · MAIT Delhi · 2027</text>
+    <text x="482" y="171">3× Hackathon podium · 550+ LeetCode</text>
+    <text x="52" y="227" font-size="11.5" letter-spacing="1.2" fill="#c9c9cf" font-family="'SF Mono','Consolas','Courier New',monospace">LEARN → BUILD → SHIP → IMPROVE</text>
+    <circle cx="486" cy="222.5" r="3.2" fill="#9b1122"/>
+    <text x="498" y="227">Open to internships &amp; collaborations</text>
+  </g>
+
+  <rect width="900" height="272" filter="url(#grain)" opacity="0.05"/>
+
+  <rect x="18.5" y="18.5" width="863" height="235" fill="none" stroke="#26262b" stroke-width="1"/>
+  <g stroke="#ededed" stroke-width="1.3" fill="none">
+    <path d="M18 38 L18 18 L38 18"/>
+    <path d="M882 38 L882 18 L862 18"/>
+    <path d="M18 234 L18 254 L38 254"/>
+    <path d="M882 234 L882 254 L862 254"/>
+  </g>
+  <g stroke="#9b1122" stroke-width="1.3">
+    <path d="M25 29 h9"/>
+    <path d="M866 29 h9"/>
+  </g>
+</svg>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif">
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="400" fill="#08080a"/>
+
+  <text x="52" y="56" font-size="15" font-weight="300" letter-spacing="8" fill="#ededed">RECORD</text>
+  <text x="848" y="56" text-anchor="end" font-size="8.5" letter-spacing="3" fill="#55555c" font-family="'SF Mono','Consolas','Courier New',monospace">戦績 　/ 　BATTLE LOG</text>
+  <path d="M52 72 H848" stroke="#26262b" stroke-width="1"/>
+
+  <g stroke="#1a1a1e" stroke-width="1">
+    <path d="M52 116 H848 M52 160 H848 M52 204 H848 M52 248 H848 M52 292 H848"/>
+  </g>
+
+  <!-- year column -->
+  <g font-size="9.5" letter-spacing="1.6" fill="#55555c" font-family="'SF Mono','Consolas','Courier New',monospace">
+    <text x="52" y="99">2026</text>
+    <text x="52" y="143">2025</text>
+    <text x="52" y="187">2025</text>
+    <text x="52" y="231">2026</text>
+    <text x="52" y="275">2024</text>
+    <text x="52" y="319">NOW</text>
+  </g>
+
+  <!-- event names -->
+  <g font-size="11" letter-spacing="3" fill="#ededed">
+    <text x="132" y="93">SMARTOHACK 3.0</text>
+    <text x="132" y="137">CODEVERSE</text>
+    <text x="132" y="181">APOCALYPSE 3.0</text>
+    <text x="132" y="225">ZERO DEPENDENCY</text>
+    <text x="132" y="269">HACKWITHMAIT</text>
+    <text x="132" y="313">LEETCODE</text>
+  </g>
+
+  <!-- event detail -->
+  <g font-size="8.2" letter-spacing="0.8" fill="#5c5c63" font-family="'SF Mono','Consolas','Courier New',monospace">
+    <text x="132" y="107">IEEE Smart Cities Hackathon · MAIT Delhi</text>
+    <text x="132" y="151">24-hour national hackathon</text>
+    <text x="132" y="195">Tech Vision Alliance Hackathon</text>
+    <text x="132" y="239">72-hour global hackathon · 295 shipped projects</text>
+    <text x="132" y="283">Showcased at Microsoft Office, Gurugram</text>
+    <text x="132" y="327">DSA practice, every day</text>
+  </g>
+
+  <!-- results -->
+  <g font-size="10" letter-spacing="2.4" text-anchor="end" font-family="'SF Mono','Consolas','Courier New',monospace">
+    <text x="848" y="99" fill="#ededed">1ST PLACE</text>
+    <text x="848" y="143" fill="#ededed">1ST PLACE</text>
+    <text x="848" y="187" fill="#c9c9cf">2ND RUNNER-UP</text>
+    <text x="848" y="231" fill="#8a8a90">11TH / 295</text>
+    <text x="848" y="275" fill="#8a8a90">TOP 10</text>
+    <text x="848" y="319" fill="#8a8a90">550+ SOLVED</text>
+  </g>
+
+  <!-- winner marks -->
+  <g stroke="#9b1122" stroke-width="1.3">
+    <path d="M718 95.5 h12"/>
+    <path d="M718 139.5 h12"/>
+  </g>
+
+  <path d="M52 336 H848" stroke="#26262b" stroke-width="1"/>
+  <text x="52" y="358" font-size="8.5" letter-spacing="3" fill="#55555c" font-family="'SF Mono','Consolas','Courier New',monospace">PROJECTS PRESENTED AT — IIT DELHI · IIT ROORKEE · THAPAR UNIVERSITY</text>
+
+  <rect width="900" height="400" filter="url(#grain)" opacity="0.05"/>
+
+  <rect x="18.5" y="18.5" width="863" height="363" fill="none" stroke="#26262b" stroke-width="1"/>
+  <g stroke="#ededed" stroke-width="1.3" fill="none">
+    <path d="M18 38 L18 18 L38 18"/>
+    <path d="M882 38 L882 18 L862 18"/>
+    <path d="M18 362 L18 382 L38 382"/>
+    <path d="M882 362 L882 382 L862 382"/>
+  </g>
+  <g stroke="#9b1122" stroke-width="1.3">
+    <path d="M25 29 h9"/>
+    <path d="M866 29 h9"/>
+  </g>
+</svg>
